@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); 
+
+*{
+  font-family: 'Abel', sans-serif;
+}
+.Main_Container{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: 1350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tdl{
+  width: 600px;
+  margin-top: 110px;
+  margin-left: 30px;
+}
+.tdl_lines{
+  margin-left: 10%;
+  margin-top: 120px;
+  width: 500px;
+}
+.Header{
+  background: #708cd5; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.Logo{
+  width: 150px;
+}
+.Link{
+  background: none;
+  width: 90px;
+  padding: 20px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+.Link:hover{
+  background-color: white;
+  color: rgba(238,174,202,1);
+  transition: 0.4s;
+  box-shadow: 1px 1px 20px;
+}
+.Input_box{
+  background-image: url(./Components/card.png);
+  background-size: cover;
+  border-image-repeat: no-repeat;
+  width: 600px;
+  height: 270px;
+  margin-left: 35%;
+  margin-top: -100%;
+  transition: all .2s ease-in-out;
+}
+.Input_box:hover{
+box-shadow: 1px 2px 20px rgba(238,174,202,1);
+transition: 0.3s;
+transform: scale(1.02);
+}
+.Input_ToDo{
+  margin-left: 18%;
+  width: 350px;
+}
+.p_todoInput{
+  margin-left: 23%;
+  font-weight: 900;
+  font-size: 40px;
+  color: #0B63AF;
+}
+.Btn_Add{
+  margin-left: 20px;
+  border: none;
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: #0B63AF;
+}
+.Btn_Add:hover {
+  background-color: #283B8F;
+  color: white;
+  transition: 0.4s;
+}
+.Body{
+  background-color: #a9bae6;
+  width: 600px;
+  height: 700px;
+  margin-left: 35%;
+  margin-top: -140%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border: solid 2px #b0c2f0;
+}
+.Button_container{
+  padding: 30px;
+  display: flex ;
+  justify-content: space-between;
+  width: 460px;
+}
+.Body_Button{
+  border: none;
+  width: 120px;
+  height: 60px;
+  color: white;
+  background-color: #ee6f57;
+  transition: all .2s ease-in-out;
+}
+.Body_Button:hover{
+  background-color: #d32f1e;
+  transition: 0.3s;
+  transform: scale(1.08);
+}
+.ToDo_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 30px;
+  padding: 20px;
+  background: rgb(231,232,233);
+  background: linear-gradient(90deg, rgba(231,232,233,1) 0%, rgba(255,255,255,1) 50%, rgba(231,232,233,1) 100%); 
+  box-shadow: #1964b0 0px 10px ;
+  transition: all .2s ease-in-out;
+}
+.ToDo_container:hover{
+  box-shadow: 1px 2px 20px rgba(238,174,202,1);
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+.ToDo_Buttons_container{
+  display: flex;
+  gap: 10px;
+}
+.ToDo_P{
+  font-weight: 900;
+  font-size: 20px;
+  color: #0B63AF;
+}
+.ToDo_Btn{
+  border: none;
+  width: 35px;
+  height: 35px;
+  color: white;
+  background-color: #ee6f57;
+  transition: all .2s ease-in-out;
+}
+.ToDo_Btn:hover{
+  background-color: #d32f1e;
+  transition: 0.3s;
+  transform: scale(1.08);
+}
+.ToDo_p_i{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  width: 20px;
+}
